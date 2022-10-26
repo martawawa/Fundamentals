@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/arena">
+    android:background="@color/azul_c">
 
 
     <ImageView
@@ -54,7 +54,8 @@
         app:layout_constraintTop_toBottomOf="@id/password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35">
+        app:layout_constraintHorizontal_bias="0.35"
+        android:backgroundTint="@color/azul_t">
 
     </Button>
 
@@ -65,7 +66,8 @@
         android:id="@+id/cancel"
         android:layout_marginLeft="8dp"
         app:layout_constraintStart_toEndOf="@id/ok"
-        app:layout_constraintTop_toTopOf="@id/ok">
+        app:layout_constraintTop_toTopOf="@id/ok"
+        android:backgroundTint="@color/azul_t">
 
 
     </Button>
