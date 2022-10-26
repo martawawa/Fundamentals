@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--PALETA 1-->
+    <color name="salmon">#EB838D</color>
+    <color name="violeta">#A07FF5</color>
+    <color name="azul_c">#7FD4DE</color>
+    <color name="menta">#A3F78F</color>
+    <color name="arena">#EBD583</color>
+
+    <!--PALETA 2-->
+    <color name="rosa_c">#F277B0</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>
