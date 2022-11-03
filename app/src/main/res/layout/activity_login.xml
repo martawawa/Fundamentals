@@ -7,8 +7,9 @@
     android:background="@color/azul_c"
     tools:context=".MainActivity">
 
+
     <ImageView
-        android:id="@+id/planeta"
+        android:id="@+id/tree"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="128dp"
@@ -26,7 +27,7 @@
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline1"
-        app:layout_constraintTop_toBottomOf="@id/planeta"
+        app:layout_constraintTop_toBottomOf="@id/tree"
         app:startIconDrawable="@android:drawable/ic_btn_speak_now"
 
         >
@@ -67,7 +68,7 @@
         android:id="@+id/login"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/teal_700"
+        android:backgroundTint="@color/buttonselector"
         android:text="Login"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintTop_toBottomOf="@id/tilpassword">
@@ -76,14 +77,13 @@
 
     <Button
         android:id="@+id/cancel"
+        android:text="Cancel"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="Cancel"
         app:layout_constraintEnd_toStartOf="@id/guideline2"
         app:layout_constraintStart_toEndOf="@id/login"
         app:layout_constraintTop_toTopOf="@id/login"
-        android:backgroundTint="@color/teal_700">
-
+        android:backgroundTint="@color/buttonselector">
     </Button>
 
     <TextView
