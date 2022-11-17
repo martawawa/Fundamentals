@@ -5,8 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context=".MainActivity">
+    tools:context=".Login">
 
+<!--    En el Androidmanifest debemos poner en activity main
+    el nombre de la clase java Login-->
 
     <ImageView
         android:id="@+id/logo"
@@ -26,9 +28,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintTop_toBottomOf="@id/logo"
-        app:startIconDrawable="@android:drawable/ic_btn_speak_now"
-
-        >
+        app:startIconDrawable="@android:drawable/ic_btn_speak_now">
 
         <EditText
             android:layout_width="match_parent"
